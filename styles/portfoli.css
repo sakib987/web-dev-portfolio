@@ -1,0 +1,123 @@
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* Navbar styles start */
+    header{
+        
+        background-color: #FFF8F3;
+        padding-left: 136px;
+        background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position:50px 30px , right bottom;
+        background-size:  120px 734px, 1036px 518px; 
+        
+        
+    }
+ nav{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        margin:0px 90px;
+        padding-top: 43px;
+
+}
+.nav-title{
+        font-size: 45px;
+    }
+
+    nav ul{
+        display: flex;
+        font-weight: 800;
+        align-items: center;
+       
+
+    }
+    .text-primary{
+        color: #FD6E0A;
+    }
+
+    nav ul li{
+        list-style: none;
+        
+    }
+    
+    
+    nav ul li a{
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    .dark-2{
+        color:#474747
+    }
+    .primary-btn{
+        width: 150px;
+        height: 64px;
+        font-size: 20px;
+        background-color: #FD6E0A;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+    .primary-btn:hover{
+        background-color: #da6416;
+        transition: background-color 1.3s ease;
+        
+    }
+
+            /* end navbar */
+            /* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 584px;
+     margin: 0 38px 0 90px;
+}
+    .banner-greetings{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .banner-titel{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 20px 0;
+    }
+    .banner-description{
+        font-size: 18px;
+        color: #757575;
+        margin: 20px 0;
+    }
+    .banner-profile-pic{
+        width: 584px;
+        height: 674px;
+        margin-right: 38px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
